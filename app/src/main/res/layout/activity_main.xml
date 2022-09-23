@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnUpVid"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="VIDIO"
+        app:backgroundTint="#FFF300"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnUpWord"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUpImg"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="IMAGE"
+        app:backgroundTint="#FFF300"
+        app:layout_constraintEnd_toStartOf="@+id/btnUpPdf"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUpPdf"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="PDF"
+        app:backgroundTint="#FFF300"
+        app:layout_constraintEnd_toStartOf="@+id/btnUpWord"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnUpImg"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="164dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="UPLOAD FILE"
+        app:backgroundTint="#5C00FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txSelectedFile" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="164dp"
+        android:layout_height="41dp"
+        android:text="DELETE FILE"
+        app:backgroundTint="#5C00FF"
+        app:layout_constraintBottom_toTopOf="@+id/lsV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnUpload"
+        app:layout_constraintTop_toBottomOf="@+id/txSelectedFile" />
+
+    <Button
+        android:id="@+id/btnUpWord"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="WORD"
+        app:backgroundTint="#FFF300"
+        app:layout_constraintEnd_toStartOf="@+id/btnUpVid"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnUpPdf"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txSelectedFile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUpWord" />
+
+    <ListView
+        android:id="@+id/lsV"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUpload" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "909125845819",
+    "firebase_url": "https://alif-f9e05-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "alif-f9e05",
+    "storage_bucket": "alif-f9e05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909125845819:android:f3a55186c5a6f3e2c5ad1e",
+        "android_client_info": {
+          "package_name": "Hariyanto.Alif.com.tugas3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909125845819-ucsl50g046hs4t223491b524mbbbbl8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUON4qElf6pbNTc2a9khe0IQjkia8jQtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909125845819-ucsl50g046hs4t223491b524mbbbbl8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909125845819:android:06cc901fd1d04207c5ad1e",
+        "android_client_info": {
+          "package_name": "hariyanto.alif.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909125845819-ucsl50g046hs4t223491b524mbbbbl8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUON4qElf6pbNTc2a9khe0IQjkia8jQtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909125845819-ucsl50g046hs4t223491b524mbbbbl8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909125845819:android:51df84f4490074e7c5ad1e",
+        "android_client_info": {
+          "package_name": "hariyanto.alif.com.tugas2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909125845819-ucsl50g046hs4t223491b524mbbbbl8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUON4qElf6pbNTc2a9khe0IQjkia8jQtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909125845819-ucsl50g046hs4t223491b524mbbbbl8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
